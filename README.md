@@ -1,92 +1,71 @@
-Contribution: 2021-11-14 16:00
+# @elrondnetwork/dapp-template
+The __Elrond dApp Template__, built using [React.js](https://reactjs.org/) and [Typescript](https://www.typescriptlang.org/).
+It's a basic implementation of [@elrondnetwork/dapp](https://www.npmjs.com/package/@elrondnetwork/dapp), providing the basics for Elrond authentication and TX signing.
 
-Contribution: 2021-11-14 18:01
+See [Dapp template](https://dapp-template.elrond.com/) for live demo.
 
-Contribution: 2021-11-14 15:02
+## Requirements
 
-Contribution: 2021-11-14 18:03
+* Node.js version 12.16.2+
+* Npm version 6.14.4+
 
-Contribution: 2021-11-14 19:04
+## Getting Started
 
-Contribution: 2021-11-14 15:05
+The dapp is a client side only poject and is built using the [Create React App](https://create-react-app.dev)  scripts.
 
-Contribution: 2021-11-14 18:06
+### Instalation and running
 
-Contribution: 2021-11-14 15:07
+### Step 1. Install modules
 
-Contribution: 2021-11-14 18:08
+From a terminal, navigate to the project folder and run:
 
-Contribution: 2021-11-15 18:00
+```bash
+npm install
+```
 
-Contribution: 2021-11-15 16:01
+### Step 2. Update Configs
 
-Contribution: 2021-11-15 19:02
+Create a new file `src/config.tsx` and copy the content of `src/config.testnet.tsx`. If you want to develop against `devnet`, change all instances of `testnet` to `devnet`.
 
-Contribution: 2021-11-15 19:03
+### Step 3. Running in development mode
 
-Contribution: 2021-11-15 17:04
+In the project folder run:
 
-Contribution: 2021-11-17 16:00
+```bash
+npm run start
+```
 
-Contribution: 2021-11-17 18:01
+This will start the React app in development mode, using the configs found in the `config.tsx` file.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Contribution: 2021-11-18 17:00
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Contribution: 2021-11-18 15:01
+### Step 4. Build for testing and production use
 
-Contribution: 2021-11-18 18:02
+A build of the app is necessary to deploy for testing purposes or for production use.
+To build the project run:
 
-Contribution: 2021-11-18 15:03
+```bash
+npm run build
+```
 
-Contribution: 2021-11-18 19:04
+## Roadmap
 
-Contribution: 2021-11-18 15:05
+See the [open issues](https://github.com/ElrondNetwork/dapp-template/issues) for a list of proposed features (and known issues).
 
-Contribution: 2021-11-18 16:06
+## Contributing
 
-Contribution: 2021-11-18 15:07
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Contribution: 2021-11-18 19:08
+One can contribute by creating _pull requests_, or by opening _issues_ for discovered bugs or desired features.
 
-Contribution: 2021-11-19 16:00
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Contribution: 2021-11-19 17:01
+## Developers
 
-Contribution: 2021-11-19 19:02
-
-Contribution: 2021-11-19 15:03
-
-Contribution: 2021-11-19 19:04
-
-Contribution: 2021-11-19 19:05
-
-Contribution: 2021-11-20 18:00
-
-Contribution: 2021-11-22 19:00
-
-Contribution: 2021-11-22 17:01
-
-Contribution: 2021-11-22 18:02
-
-Contribution: 2021-11-22 16:03
-
-Contribution: 2021-11-22 16:04
-
-Contribution: 2021-11-22 19:05
-
-Contribution: 2021-11-22 18:06
-
-Contribution: 2021-11-22 17:07
-
-Contribution: 2021-11-22 15:08
-
-Contribution: 2021-11-22 18:09
-
-Contribution: 2021-11-23 15:00
-
-Contribution: 2021-11-23 17:01
-
-Contribution: 2021-11-23 15:02
-
-Contribution: 2021-11-23 16:03
-
+The [Elrond Team](https://elrond.com/team/).
